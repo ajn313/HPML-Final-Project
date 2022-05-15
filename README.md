@@ -34,4 +34,6 @@ Using the optimized version, we find that the total train time for the Targeter 
 
 <img width="508" alt="屏幕快照 2022-05-15 上午12 06 34" src="https://user-images.githubusercontent.com/36126865/168456767-54e3d9c9-c834-48f7-9dca-8315d4614c20.png">
 
-Depending on the procedure, our optimization methodology can lead to a 2-fold or 3-fold speed increase
+
+
+Depending on the procedure, our optimization methodology can lead to a 2-fold or 3-fold speed increase for elements of the TDCGAN architecture
