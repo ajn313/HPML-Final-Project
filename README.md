@@ -17,7 +17,7 @@ All our output pictures include the measurement of loss and time are in other fo
 
 Code structure:
 
-Basiclly, our code has three parts: Generator, Discriminator, Targeter. Targeter is a ResNet 18 model which is uesd to predict the label of the generated image. Generator and Discriminator are normol CNN models. First, we download the CIFAR10 dataset and train the targeter, then we train the Generator and Discriminator. Finally, we get the output picture and the time and loss plot.
+Basiclly, our code has three parts: Generator, Discriminator, Targeter. Targeter is a ResNet 18 model which is uesd to predict the label of the generated image. Generator and Discriminator are normol CNN models. First, we download the dataset and train the targeter, then we train the Generator and Discriminator. Finally, we get the output picture and the time and loss plot.
 
 Results and Observations:
 
