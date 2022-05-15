@@ -13,12 +13,15 @@ We can see from the following pictures, the traditional GAN architecture can gen
 <img width="685" alt="屏幕快照 2022-05-14 下午9 57 13" src="https://user-images.githubusercontent.com/36126865/168453946-9e2f1627-4346-480b-a2d6-00485ebe8bd9.png">
 
 
-Repository structure:
+Repository:
 
 All our code files are in the "project files" folder, you can upload the "HPML_project_script.py" to the NYU Greene HPC, then run with sbatch file.
 For example, for 1 gpu running, we can use the command: `sbatch project_sbatch_1_gpu.sbatch`.
 
 All our output pictures include the measurement of loss and time are in other folders, you can check those results.
 
+Code structure:
+
+Basiclly, our code has three parts: Generator, Discriminator, Targeter. Targeter is a ResNet 18 model which is uesd to predict the label of the generated image. Generator and Discriminator are normol CNN models. First, we download the CIFAR10 dataset and train the targeter, then we train the Generator and Discriminator. Finally, we get the output picture and the time and loss plot.
 
 
