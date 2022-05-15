@@ -1,0 +1,1063 @@
+no change     /share/apps/anaconda3/2020.07/condabin/conda
+no change     /share/apps/anaconda3/2020.07/bin/conda
+no change     /share/apps/anaconda3/2020.07/bin/conda-env
+no change     /share/apps/anaconda3/2020.07/bin/activate
+no change     /share/apps/anaconda3/2020.07/bin/deactivate
+no change     /share/apps/anaconda3/2020.07/etc/profile.d/conda.sh
+no change     /share/apps/anaconda3/2020.07/etc/fish/conf.d/conda.fish
+no change     /share/apps/anaconda3/2020.07/shell/condabin/Conda.psm1
+no change     /share/apps/anaconda3/2020.07/shell/condabin/conda-hook.ps1
+no change     /share/apps/anaconda3/2020.07/lib/python3.8/site-packages/xontrib/conda.xsh
+no change     /share/apps/anaconda3/2020.07/etc/profile.d/conda.csh
+no change     /home/ajn313/.bashrc
+No action taken.
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+
+Epoch: 1
+
+Epoch data loader time:   12.203571827000003  sec
+Epoch Compute Time:  13.986765489000001  sec
+Epoch training time:  6.398871109  sec
+Epoch total time:  32.589208425  sec
+Epoch Average Training Time:  0.06529460315306122  sec
+Epoch Average Loss:  1.5946699490352554
+Top Epoch Accuracy:  41.584 %
+Epoch  1  Total Runtime:  32.589738482  sec
+
+Testing:
+
+Val Acc:  50.73 %
+
+Saving..
+
+Epoch: 2
+
+Epoch data loader time:   12.118297712999997  sec
+Epoch Compute Time:  14.236233575  sec
+Epoch training time:  1.2899696979999995  sec
+Epoch total time:  27.644500985999997  sec
+Epoch Average Training Time:  0.013162956102040812  sec
+Epoch Average Loss:  1.1129797003707107
+Top Epoch Accuracy:  59.844 %
+Epoch  2  Total Runtime:  27.645027267  sec
+
+Testing:
+
+Val Acc:  58.62 %
+
+Saving..
+
+Epoch: 3
+
+Epoch data loader time:   12.219694181000005  sec
+Epoch Compute Time:  14.251163610999999  sec
+Epoch training time:  1.2887008199999994  sec
+Epoch total time:  27.759558612000003  sec
+Epoch Average Training Time:  0.013150008367346934  sec
+Epoch Average Loss:  0.8715471254319561
+Top Epoch Accuracy:  69.034 %
+Epoch  3  Total Runtime:  27.760113101  sec
+
+Testing:
+
+Val Acc:  69.67 %
+
+Saving..
+
+Epoch: 4
+
+Epoch data loader time:   12.230062419000001  sec
+Epoch Compute Time:  14.285721523999998  sec
+Epoch training time:  1.2843715140000003  sec
+Epoch total time:  27.800155457  sec
+Epoch Average Training Time:  0.013105831775510206  sec
+Epoch Average Loss:  0.7096554448409956
+Top Epoch Accuracy:  75.1953125 %
+Epoch  4  Total Runtime:  27.800669797  sec
+
+Testing:
+
+Val Acc:  70.43 %
+
+Saving..
+
+Epoch: 5
+
+Epoch data loader time:   12.160835422999998  sec
+Epoch Compute Time:  14.286788979999997  sec
+Epoch training time:  1.2894722079999996  sec
+Epoch total time:  27.737096610999995  sec
+Epoch Average Training Time:  0.013157879673469383  sec
+Epoch Average Loss:  0.604054048353312
+Top Epoch Accuracy:  78.93473307291667 %
+Epoch  5  Total Runtime:  27.737658969  sec
+
+Testing:
+
+Val Acc:  75.01 %
+
+Saving..
+
+Epoch: 6
+
+Epoch data loader time:   12.116873773000002  sec
+Epoch Compute Time:  14.325879205999996  sec
+Epoch training time:  1.284956589999999  sec
+Epoch total time:  27.727709568999998  sec
+Epoch Average Training Time:  0.013111801938775501  sec
+Epoch Average Loss:  0.5313317727069465
+Top Epoch Accuracy:  82.2265625 %
+Epoch  6  Total Runtime:  27.728257105  sec
+
+Testing:
+
+Val Acc:  79.87 %
+
+Saving..
+
+Epoch: 7
+
+Epoch data loader time:   12.244978852000003  sec
+Epoch Compute Time:  14.349631202999994  sec
+Epoch training time:  1.282020237  sec
+Epoch total time:  27.876630291999998  sec
+Epoch Average Training Time:  0.013081839153061225  sec
+Epoch Average Loss:  0.46796049572983567
+Top Epoch Accuracy:  84.66796875 %
+Epoch  7  Total Runtime:  27.877195186  sec
+
+Testing:
+
+Val Acc:  82.05 %
+
+Saving..
+
+Epoch: 8
+
+Epoch data loader time:   12.200894104  sec
+Epoch Compute Time:  14.353467812000003  sec
+Epoch training time:  1.2867624209999997  sec
+Epoch total time:  27.841124337000004  sec
+Epoch Average Training Time:  0.013130228785714283  sec
+Epoch Average Loss:  0.42486103456847524
+Top Epoch Accuracy:  85.44921875 %
+Epoch  8  Total Runtime:  27.84164308  sec
+
+Testing:
+
+Val Acc:  78.12 %
+
+
+Epoch: 9
+
+Epoch data loader time:   12.148788904  sec
+Epoch Compute Time:  14.337773439999994  sec
+Epoch training time:  1.2879726539999998  sec
+Epoch total time:  27.774534997999993  sec
+Epoch Average Training Time:  0.013142578102040815  sec
+Epoch Average Loss:  0.3870692700147629
+Top Epoch Accuracy:  86.9384765625 %
+Epoch  9  Total Runtime:  27.775021368  sec
+
+Testing:
+
+Val Acc:  77.24 %
+
+
+Epoch: 10
+
+Epoch data loader time:   12.184888477  sec
+Epoch Compute Time:  14.327254322  sec
+Epoch training time:  1.3059140209999998  sec
+Epoch total time:  27.81805682  sec
+Epoch Average Training Time:  0.013325653275510201  sec
+Epoch Average Loss:  0.3530730532140148
+Top Epoch Accuracy:  88.60677083333333 %
+Epoch  10  Total Runtime:  27.818576  sec
+
+Testing:
+
+Val Acc:  81.26 %
+
+
+Epoch: 11
+
+Epoch data loader time:   12.117256301000001  sec
+Epoch Compute Time:  14.346689698999997  sec
+Epoch training time:  1.292062053  sec
+Epoch total time:  27.756008053  sec
+Epoch Average Training Time:  0.013184306663265305  sec
+Epoch Average Loss:  0.32771496140227024
+Top Epoch Accuracy:  90.4296875 %
+Epoch  11  Total Runtime:  27.756483256  sec
+
+Testing:
+
+Val Acc:  85.14 %
+
+Saving..
+
+Epoch: 12
+
+Epoch data loader time:   12.170565881  sec
+Epoch Compute Time:  14.352313997999996  sec
+Epoch training time:  1.2883047529999998  sec
+Epoch total time:  27.811184631999993  sec
+Epoch Average Training Time:  0.013145966867346938  sec
+Epoch Average Loss:  0.2998638341621477
+Top Epoch Accuracy:  92.08984375 %
+Epoch  12  Total Runtime:  27.811721104  sec
+
+Testing:
+
+Val Acc:  85.04 %
+
+
+Epoch: 13
+
+Epoch data loader time:   12.205046243000002  sec
+Epoch Compute Time:  14.352811663999999  sec
+Epoch training time:  1.2802710349999997  sec
+Epoch total time:  27.838128941999997  sec
+Epoch Average Training Time:  0.013063990153061221  sec
+Epoch Average Loss:  0.27632844372063264
+Top Epoch Accuracy:  92.0703125 %
+Epoch  13  Total Runtime:  27.838614149  sec
+
+Testing:
+
+Val Acc:  86.12 %
+
+Saving..
+
+Epoch: 14
+
+Epoch data loader time:   12.137723140000004  sec
+Epoch Compute Time:  14.353583153  sec
+Epoch training time:  1.2886449070000003  sec
+Epoch total time:  27.779951200000006  sec
+Epoch Average Training Time:  0.013149437826530616  sec
+Epoch Average Loss:  0.2618706860408491
+Top Epoch Accuracy:  92.1875 %
+Epoch  14  Total Runtime:  27.780507979  sec
+
+Testing:
+
+Val Acc:  84.86 %
+
+
+Epoch: 15
+
+Epoch data loader time:   12.185570231  sec
+Epoch Compute Time:  14.351921432000003  sec
+Epoch training time:  1.2861537049999998  sec
+Epoch total time:  27.823645368000005  sec
+Epoch Average Training Time:  0.013124017397959181  sec
+Epoch Average Loss:  0.2457137811852961
+Top Epoch Accuracy:  92.7734375 %
+Epoch  15  Total Runtime:  27.824142836  sec
+
+Testing:
+
+Val Acc:  86.25 %
+
+Saving..
+
+Epoch: 16
+
+Epoch data loader time:   12.131877850999997  sec
+Epoch Compute Time:  14.365958199999998  sec
+Epoch training time:  1.282132314  sec
+Epoch total time:  27.779968364999995  sec
+Epoch Average Training Time:  0.013082982795918368  sec
+Epoch Average Loss:  0.22511544732414945
+Top Epoch Accuracy:  94.7265625 %
+Epoch  16  Total Runtime:  27.780489988  sec
+
+Testing:
+
+Val Acc:  87.41 %
+
+Saving..
+
+Epoch: 17
+
+Epoch data loader time:   12.16819178  sec
+Epoch Compute Time:  14.363821821999998  sec
+Epoch training time:  1.283867346  sec
+Epoch total time:  27.815880948  sec
+Epoch Average Training Time:  0.013100687204081633  sec
+Epoch Average Loss:  0.21058195662133547
+Top Epoch Accuracy:  93.06640625 %
+Epoch  17  Total Runtime:  27.816418503  sec
+
+Testing:
+
+Val Acc:  87.51 %
+
+Saving..
+
+Epoch: 18
+
+Epoch data loader time:   12.164986503000002  sec
+Epoch Compute Time:  14.358482977000003  sec
+Epoch training time:  1.2894534650000002  sec
+Epoch total time:  27.812922945000004  sec
+Epoch Average Training Time:  0.01315768841836735  sec
+Epoch Average Loss:  0.19822103697426466
+Top Epoch Accuracy:  93.8179347826087 %
+Epoch  18  Total Runtime:  27.813431461  sec
+
+Testing:
+
+Val Acc:  86.05 %
+
+
+Epoch: 19
+
+Epoch data loader time:   12.203271410999998  sec
+Epoch Compute Time:  14.359388068999994  sec
+Epoch training time:  1.2906454890000003  sec
+Epoch total time:  27.853304968999993  sec
+Epoch Average Training Time:  0.013169851928571431  sec
+Epoch Average Loss:  0.18434711690155828
+Top Epoch Accuracy:  94.482421875 %
+Epoch  19  Total Runtime:  27.853795994  sec
+
+Testing:
+
+Val Acc:  86.04 %
+
+
+Epoch: 20
+
+Epoch data loader time:   12.160026013999996  sec
+Epoch Compute Time:  14.362486042  sec
+Epoch training time:  1.2813668039999997  sec
+Epoch total time:  27.803878859999998  sec
+Epoch Average Training Time:  0.013075171469387753  sec
+Epoch Average Loss:  0.18116416432419602
+Top Epoch Accuracy:  95.1171875 %
+Epoch  20  Total Runtime:  27.804344142  sec
+
+Testing:
+
+Val Acc:  87.92 %
+
+Saving..
+
+Epoch: 21
+
+Epoch data loader time:   12.105247499999994  sec
+Epoch Compute Time:  14.368640536000001  sec
+Epoch training time:  1.2816909820000002  sec
+Epoch total time:  27.755579017999995  sec
+Epoch Average Training Time:  0.013078479408163268  sec
+Epoch Average Loss:  0.15806646835134955
+Top Epoch Accuracy:  94.5889559659091 %
+Epoch  21  Total Runtime:  27.756152532  sec
+
+Testing:
+
+Val Acc:  87.47 %
+
+
+Epoch: 22
+
+Epoch data loader time:   12.099501879000004  sec
+Epoch Compute Time:  14.367182843999997  sec
+Epoch training time:  1.280038208  sec
+Epoch total time:  27.746722931  sec
+Epoch Average Training Time:  0.013061614367346938  sec
+Epoch Average Loss:  0.1503281251204257
+Top Epoch Accuracy:  95.1171875 %
+Epoch  22  Total Runtime:  27.747224556  sec
+
+Testing:
+
+Val Acc:  87.88 %
+
+
+Epoch: 23
+
+Epoch data loader time:   12.082433151  sec
+Epoch Compute Time:  14.374205492999993  sec
+Epoch training time:  1.2782893820000003  sec
+Epoch total time:  27.734928025999995  sec
+Epoch Average Training Time:  0.013043769204081635  sec
+Epoch Average Loss:  0.14367890943373954
+Top Epoch Accuracy:  96.142578125 %
+Epoch  23  Total Runtime:  27.73542249  sec
+
+Testing:
+
+Val Acc:  88.89 %
+
+Saving..
+
+Epoch: 24
+
+Epoch data loader time:   12.146168926999994  sec
+Epoch Compute Time:  14.369025445000002  sec
+Epoch training time:  1.2808648349999996  sec
+Epoch total time:  27.796059206999995  sec
+Epoch Average Training Time:  0.013070049336734689  sec
+Epoch Average Loss:  0.13627771014461712
+Top Epoch Accuracy:  95.8203125 %
+Epoch  24  Total Runtime:  27.796626236  sec
+
+Testing:
+
+Val Acc:  87.65 %
+
+
+Epoch: 25
+
+Epoch data loader time:   12.142918213000003  sec
+Epoch Compute Time:  14.361371542999999  sec
+Epoch training time:  1.2911096390000005  sec
+Epoch total time:  27.795399395000004  sec
+Epoch Average Training Time:  0.01317458815306123  sec
+Epoch Average Loss:  0.1251788571172831
+Top Epoch Accuracy:  96.484375 %
+Epoch  25  Total Runtime:  27.795874081  sec
+
+Testing:
+
+Val Acc:  89.23 %
+
+Saving..
+
+Epoch: 26
+
+Epoch data loader time:   12.152374248999998  sec
+Epoch Compute Time:  14.363072593000004  sec
+Epoch training time:  1.2792990189999998  sec
+Epoch total time:  27.794745861000003  sec
+Epoch Average Training Time:  0.013054071622448976  sec
+Epoch Average Loss:  0.12418670788863484
+Top Epoch Accuracy:  96.875 %
+Epoch  26  Total Runtime:  27.795271743  sec
+
+Testing:
+
+Val Acc:  88.21 %
+
+
+Epoch: 27
+
+Epoch data loader time:   12.10520786  sec
+Epoch Compute Time:  14.357729475000001  sec
+Epoch training time:  1.276803877999999  sec
+Epoch total time:  27.739741213  sec
+Epoch Average Training Time:  0.01302861099999999  sec
+Epoch Average Loss:  0.11141242170516326
+Top Epoch Accuracy:  97.16796875 %
+Epoch  27  Total Runtime:  27.740220859  sec
+
+Testing:
+
+Val Acc:  89.63 %
+
+Saving..
+
+Epoch: 28
+
+Epoch data loader time:   12.041778561  sec
+Epoch Compute Time:  14.367421876000003  sec
+Epoch training time:  1.2811236759999995  sec
+Epoch total time:  27.690324113000003  sec
+Epoch Average Training Time:  0.013072690571428567  sec
+Epoch Average Loss:  0.10492507284697221
+Top Epoch Accuracy:  96.77734375 %
+Epoch  28  Total Runtime:  27.690873156  sec
+
+Testing:
+
+Val Acc:  89.85 %
+
+Saving..
+
+Epoch: 29
+
+Epoch data loader time:   12.113869611999995  sec
+Epoch Compute Time:  14.368166403  sec
+Epoch training time:  1.2796867319999996  sec
+Epoch total time:  27.761722746999993  sec
+Epoch Average Training Time:  0.013058027877551016  sec
+Epoch Average Loss:  0.09966762306890925
+Top Epoch Accuracy:  97.16796875 %
+Epoch  29  Total Runtime:  27.762271538  sec
+
+Testing:
+
+Val Acc:  89.48 %
+
+
+Epoch: 30
+
+Epoch data loader time:   12.169790559000008  sec
+Epoch Compute Time:  14.358796068  sec
+Epoch training time:  1.2845958340000005  sec
+Epoch total time:  27.81318246100001  sec
+Epoch Average Training Time:  0.013108120755102046  sec
+Epoch Average Loss:  0.10073496367098117
+Top Epoch Accuracy:  97.0703125 %
+Epoch  30  Total Runtime:  27.813668015  sec
+
+Testing:
+
+Val Acc:  88.18 %
+
+
+Epoch: 31
+
+Epoch data loader time:   12.070090309999992  sec
+Epoch Compute Time:  14.373832320000004  sec
+Epoch training time:  1.2782257609999998  sec
+Epoch total time:  27.722148390999998  sec
+Epoch Average Training Time:  0.01304312001020408  sec
+Epoch Average Loss:  0.08775508065460896
+Top Epoch Accuracy:  97.265625 %
+Epoch  31  Total Runtime:  27.722627252  sec
+
+Testing:
+
+Val Acc:  88.37 %
+
+
+Epoch: 32
+
+Epoch data loader time:   12.115493882999997  sec
+Epoch Compute Time:  14.363519738  sec
+Epoch training time:  1.2800308369999998  sec
+Epoch total time:  27.759044457999998  sec
+Epoch Average Training Time:  0.013061539153061222  sec
+Epoch Average Loss:  0.08298682927020959
+Top Epoch Accuracy:  97.8515625 %
+Epoch  32  Total Runtime:  27.759531046  sec
+
+Testing:
+
+Val Acc:  88.46 %
+
+
+Epoch: 33
+
+Epoch data loader time:   12.067037119000002  sec
+Epoch Compute Time:  14.361573024  sec
+Epoch training time:  1.2805227470000002  sec
+Epoch total time:  27.70913289  sec
+Epoch Average Training Time:  0.013066558642857145  sec
+Epoch Average Loss:  0.08071971076483629
+Top Epoch Accuracy:  97.8515625 %
+Epoch  33  Total Runtime:  27.709613517  sec
+
+Testing:
+
+Val Acc:  89.87 %
+
+Saving..
+
+Epoch: 34
+
+Epoch data loader time:   12.077785064  sec
+Epoch Compute Time:  14.358342185000003  sec
+Epoch training time:  1.2747414479999997  sec
+Epoch total time:  27.710868697000002  sec
+Epoch Average Training Time:  0.013007565795918365  sec
+Epoch Average Loss:  0.07230906720672335
+Top Epoch Accuracy:  98.046875 %
+Epoch  34  Total Runtime:  27.711394436  sec
+
+Testing:
+
+Val Acc:  89.55 %
+
+
+Epoch: 35
+
+Epoch data loader time:   12.082830857999998  sec
+Epoch Compute Time:  14.373459762  sec
+Epoch training time:  1.2731428159999996  sec
+Epoch total time:  27.729433435999997  sec
+Epoch Average Training Time:  0.01299125322448979  sec
+Epoch Average Loss:  0.07589867228299987
+Top Epoch Accuracy:  97.52604166666667 %
+Epoch  35  Total Runtime:  27.72994978  sec
+
+Testing:
+
+Val Acc:  88.68 %
+
+
+Epoch: 36
+
+Epoch data loader time:   12.042739105999992  sec
+Epoch Compute Time:  14.362778719000001  sec
+Epoch training time:  1.2721767430000004  sec
+Epoch total time:  27.677694567999993  sec
+Epoch Average Training Time:  0.012981395336734697  sec
+Epoch Average Loss:  0.0739434618426829
+Top Epoch Accuracy:  97.78645833333333 %
+Epoch  36  Total Runtime:  27.678167694  sec
+
+Testing:
+
+Val Acc:  89.85 %
+
+
+Epoch: 37
+
+Epoch data loader time:   12.122626261999995  sec
+Epoch Compute Time:  14.369680456  sec
+Epoch training time:  1.2807796160000005  sec
+Epoch total time:  27.773086333999995  sec
+Epoch Average Training Time:  0.013069179755102045  sec
+Epoch Average Loss:  0.06354648941101468
+Top Epoch Accuracy:  99.4140625 %
+Epoch  37  Total Runtime:  27.773553478  sec
+
+Testing:
+
+Val Acc:  89.62 %
+
+
+Epoch: 38
+
+Epoch data loader time:   12.198497011000002  sec
+Epoch Compute Time:  14.357149597999996  sec
+Epoch training time:  1.28722881  sec
+Epoch total time:  27.842875419  sec
+Epoch Average Training Time:  0.013134987857142857  sec
+Epoch Average Loss:  0.061053975998443
+Top Epoch Accuracy:  98.37239583333333 %
+Epoch  38  Total Runtime:  27.84335093  sec
+
+Testing:
+
+Val Acc:  90.85 %
+
+Saving..
+
+Epoch: 39
+
+Epoch data loader time:   12.235267441  sec
+Epoch Compute Time:  14.329086467999996  sec
+Epoch training time:  1.3341969129999998  sec
+Epoch total time:  27.898550821999997  sec
+Epoch Average Training Time:  0.013614254214285712  sec
+Epoch Average Loss:  0.06197527267647033
+Top Epoch Accuracy:  98.6328125 %
+Epoch  39  Total Runtime:  27.899118734  sec
+
+Testing:
+
+Val Acc:  89.53 %
+
+
+Epoch: 40
+
+Epoch data loader time:   12.243281  sec
+Epoch Compute Time:  14.345526546  sec
+Epoch training time:  1.327200164  sec
+Epoch total time:  27.91600771  sec
+Epoch Average Training Time:  0.01354285881632653  sec
+Epoch Average Loss:  0.05678802749560195
+Top Epoch Accuracy:  98.56770833333333 %
+Epoch  40  Total Runtime:  27.916530199  sec
+
+Testing:
+
+Val Acc:  89.61 %
+
+
+Epoch: 41
+
+Epoch data loader time:   12.203120140999998  sec
+Epoch Compute Time:  14.389253065  sec
+Epoch training time:  1.2669042329999995  sec
+Epoch total time:  27.859277438999996  sec
+Epoch Average Training Time:  0.01292759421428571  sec
+Epoch Average Loss:  0.05323839982097246
+Top Epoch Accuracy:  98.19568452380952 %
+Epoch  41  Total Runtime:  27.859835918  sec
+
+Testing:
+
+Val Acc:  90.3 %
+
+
+Epoch: 42
+
+Epoch data loader time:   12.199092044  sec
+Epoch Compute Time:  14.438444956999994  sec
+Epoch training time:  1.2395891410000002  sec
+Epoch total time:  27.877126141999995  sec
+Epoch Average Training Time:  0.012648868785714288  sec
+Epoch Average Loss:  0.05199140162036127
+Top Epoch Accuracy:  98.583984375 %
+Epoch  42  Total Runtime:  27.877596612  sec
+
+Testing:
+
+Val Acc:  90.7 %
+
+
+Epoch: 43
+
+Epoch data loader time:   12.259567634999998  sec
+Epoch Compute Time:  14.445444489000002  sec
+Epoch training time:  1.2825936790000003  sec
+Epoch total time:  27.987605803  sec
+Epoch Average Training Time:  0.013087690602040819  sec
+Epoch Average Loss:  0.05603218198354755
+Top Epoch Accuracy:  98.18638392857143 %
+Epoch  43  Total Runtime:  27.988131428  sec
+
+Testing:
+
+Val Acc:  90.37 %
+
+
+Epoch: 44
+
+Epoch data loader time:   12.24164877799999  sec
+Epoch Compute Time:  14.481979042  sec
+Epoch training time:  1.241979829  sec
+Epoch total time:  27.965607648999992  sec
+Epoch Average Training Time:  0.01267326356122449  sec
+Epoch Average Loss:  0.0542794228816519
+Top Epoch Accuracy:  98.76302083333333 %
+Epoch  44  Total Runtime:  27.966075613  sec
+
+Testing:
+
+Val Acc:  90.87 %
+
+Saving..
+
+Epoch: 45
+
+Epoch data loader time:   12.149053958000001  sec
+Epoch Compute Time:  14.489836057999995  sec
+Epoch training time:  1.2390588489999999  sec
+Epoch total time:  27.877948864999997  sec
+Epoch Average Training Time:  0.012643457642857141  sec
+Epoch Average Loss:  0.04775572760144667
+Top Epoch Accuracy:  99.12109375 %
+Epoch  45  Total Runtime:  27.878480797  sec
+
+Testing:
+
+Val Acc:  91.2 %
+
+Saving..
+
+Epoch: 46
+
+Epoch data loader time:   12.250651376000002  sec
+Epoch Compute Time:  14.473303471999998  sec
+Epoch training time:  1.258255337  sec
+Epoch total time:  27.982210185  sec
+Epoch Average Training Time:  0.012839340173469388  sec
+Epoch Average Loss:  0.04233178129533724
+Top Epoch Accuracy:  98.79261363636364 %
+Epoch  46  Total Runtime:  27.982726552  sec
+
+Testing:
+
+Val Acc:  90.87 %
+
+
+Epoch: 47
+
+Epoch data loader time:   12.204706582000002  sec
+Epoch Compute Time:  14.482658082000007  sec
+Epoch training time:  1.2376407369999998  sec
+Epoch total time:  27.925005401000007  sec
+Epoch Average Training Time:  0.012628987112244895  sec
+Epoch Average Loss:  0.043100666197739085
+Top Epoch Accuracy:  99.4140625 %
+Epoch  47  Total Runtime:  27.925497048  sec
+
+Testing:
+
+Val Acc:  90.6 %
+
+
+Epoch: 48
+
+Epoch data loader time:   12.136880308000004  sec
+Epoch Compute Time:  14.480665619999998  sec
+Epoch training time:  1.2381397639999998  sec
+Epoch total time:  27.855685692  sec
+Epoch Average Training Time:  0.012634079224489794  sec
+Epoch Average Loss:  0.03672072584075587
+Top Epoch Accuracy:  98.80741003787878 %
+Epoch  48  Total Runtime:  27.856152989  sec
+
+Testing:
+
+Val Acc:  90.62 %
+
+
+Epoch: 49
+
+Epoch data loader time:   12.137546108999999  sec
+Epoch Compute Time:  14.488374834999997  sec
+Epoch training time:  1.2353586359999997  sec
+Epoch total time:  27.861279579999994  sec
+Epoch Average Training Time:  0.012605700367346937  sec
+Epoch Average Loss:  0.04456489803079439
+Top Epoch Accuracy:  99.609375 %
+Epoch  49  Total Runtime:  27.861732149  sec
+
+Testing:
+
+Val Acc:  90.42 %
+
+
+Epoch: 50
+
+Epoch data loader time:   12.165084496999997  sec
+Epoch Compute Time:  14.491325911999994  sec
+Epoch training time:  1.237837145  sec
+Epoch total time:  27.89424755399999  sec
+Epoch Average Training Time:  0.012630991275510204  sec
+Epoch Average Loss:  0.04575705866576457
+Top Epoch Accuracy:  98.60026041666667 %
+Epoch  50  Total Runtime:  27.894726246  sec
+
+Testing:
+
+Val Acc:  91.55 %
+
+Saving..
+
+Total Data Load Time:  607.835691021  sec
+Total Compute Time:  718.2199828419998 sec
+Average Compute Time:  14.364399656839996 sec
+Total Runtime of Training Epochs:  1395.122247391  sec
+Average Runtime of Training Epochs:  27.90244494782  sec
+Top Training Accuracy:  99.609375 %
+Average Train Time:  0.7337002436259183  sec
+Average Train Loss:  0.23830658067626
+Top train loss:  0.03672072584075587 
+
+Building GAN...
+
+Epoch 1 Discriminator Loss: 0.012, Generator Loss: 5.162
+D train time:  2.140886273
+G train time:  1.076248059
+Saving..
+Epoch 2 Discriminator Loss: 0.000, Generator Loss: 5.885
+D train time:  0.153081782
+G train time:  0.401035551
+Saving..
+Epoch 3 Discriminator Loss: 0.000, Generator Loss: 6.349
+D train time:  0.152373438
+G train time:  0.400127115
+Saving..
+Epoch 4 Discriminator Loss: 0.000, Generator Loss: 6.660
+D train time:  0.151812392
+G train time:  0.400797455
+Saving..
+Epoch 5 Discriminator Loss: 0.000, Generator Loss: 6.942
+D train time:  0.152191417
+G train time:  0.399730277
+Saving..
+Epoch 6 Discriminator Loss: 0.000, Generator Loss: 7.175
+D train time:  0.152782463
+G train time:  0.40021447
+Saving..
+Epoch 7 Discriminator Loss: 0.000, Generator Loss: 7.316
+D train time:  0.152543796
+G train time:  0.400807624
+Saving..
+Epoch 8 Discriminator Loss: 0.000, Generator Loss: 7.491
+D train time:  0.152041309
+G train time:  0.400714771
+Saving..
+Epoch 9 Discriminator Loss: 0.000, Generator Loss: 7.632
+D train time:  0.152071776
+G train time:  0.399956971
+Saving..
+Epoch 10 Discriminator Loss: 0.000, Generator Loss: 7.751
+D train time:  0.152258773
+G train time:  0.400196746
+Saving..
+Epoch 11 Discriminator Loss: 0.000, Generator Loss: 8.171
+D train time:  0.152442627
+G train time:  0.400835003
+Saving..
+Epoch 12 Discriminator Loss: 0.000, Generator Loss: 8.281
+D train time:  0.152379375
+G train time:  0.40073619
+Saving..
+Epoch 13 Discriminator Loss: 0.000, Generator Loss: 8.301
+D train time:  0.152660579
+G train time:  0.4015118
+Saving..
+Epoch 14 Discriminator Loss: 0.000, Generator Loss: 8.367
+D train time:  0.152245233
+G train time:  0.400995969
+Saving..
+Epoch 15 Discriminator Loss: 0.000, Generator Loss: 8.468
+D train time:  0.152185678
+G train time:  0.401216696
+Saving..
+Epoch 16 Discriminator Loss: 0.000, Generator Loss: 8.542
+D train time:  0.152471298
+G train time:  0.401533394
+Saving..
+Epoch 17 Discriminator Loss: 0.000, Generator Loss: 8.617
+D train time:  0.152121505
+G train time:  0.399764059
+Saving..
+Epoch 18 Discriminator Loss: 0.000, Generator Loss: 8.718
+D train time:  0.152214257
+G train time:  0.400296066
+Saving..
+Epoch 19 Discriminator Loss: 0.000, Generator Loss: 8.823
+D train time:  0.152520379
+G train time:  0.40039409
+Saving..
+Epoch 20 Discriminator Loss: 0.000, Generator Loss: 8.940
+D train time:  0.152278732
+G train time:  0.399742546
+Saving..
+Epoch 21 Discriminator Loss: 0.000, Generator Loss: 9.039
+D train time:  0.151892763
+G train time:  0.401041041
+Saving..
+Epoch 22 Discriminator Loss: 0.000, Generator Loss: 9.108
+D train time:  0.152438503
+G train time:  0.400554641
+Saving..
+Epoch 23 Discriminator Loss: 0.000, Generator Loss: 9.168
+D train time:  0.152155186
+G train time:  0.401607015
+Saving..
+Epoch 24 Discriminator Loss: 0.000, Generator Loss: 9.236
+D train time:  0.151903096
+G train time:  0.4008703
+Saving..
+Epoch 25 Discriminator Loss: 0.000, Generator Loss: 9.328
+D train time:  0.152175166
+G train time:  0.401393442
+Saving..
+Epoch 26 Discriminator Loss: 0.000, Generator Loss: 9.414
+D train time:  0.151934115
+G train time:  0.401303564
+Saving..
+Epoch 27 Discriminator Loss: 0.000, Generator Loss: 9.488
+D train time:  0.152067091
+G train time:  0.400227121
+Saving..
+Epoch 28 Discriminator Loss: 0.000, Generator Loss: 9.565
+D train time:  0.152307401
+G train time:  0.400663782
+Saving..
+Epoch 29 Discriminator Loss: 0.000, Generator Loss: 9.637
+D train time:  0.151958694
+G train time:  0.399901438
+Saving..
+Epoch 30 Discriminator Loss: 0.000, Generator Loss: 9.704
+D train time:  0.152306087
+G train time:  0.400659904
+Saving..
+Epoch 31 Discriminator Loss: 0.000, Generator Loss: 9.770
+D train time:  0.152131824
+G train time:  0.400956468
+Saving..
+Epoch 32 Discriminator Loss: 0.000, Generator Loss: 9.824
+D train time:  0.152315711
+G train time:  0.40092319
+Saving..
+Epoch 33 Discriminator Loss: 0.000, Generator Loss: 9.883
+D train time:  0.151818836
+G train time:  0.40161347
+Saving..
+Epoch 34 Discriminator Loss: 0.000, Generator Loss: 9.934
+D train time:  0.151812861
+G train time:  0.401257607
+Saving..
+Epoch 35 Discriminator Loss: 0.000, Generator Loss: 9.995
+D train time:  0.151995448
+G train time:  0.401044563
+Saving..
+Epoch 36 Discriminator Loss: 0.000, Generator Loss: 10.044
+D train time:  0.152179059
+G train time:  0.399945767
+Saving..
+Epoch 37 Discriminator Loss: 0.000, Generator Loss: 10.092
+D train time:  0.151962234
+G train time:  0.400293941
+Saving..
+Epoch 38 Discriminator Loss: 0.000, Generator Loss: 10.141
+D train time:  0.152302221
+G train time:  0.401237805
+Saving..
+Epoch 39 Discriminator Loss: 0.000, Generator Loss: 10.194
+D train time:  0.151878339
+G train time:  0.399723996
+Saving..
+Epoch 40 Discriminator Loss: 0.000, Generator Loss: 10.248
+D train time:  0.15182775
+G train time:  0.399578911
+Saving..
+Epoch 41 Discriminator Loss: 0.000, Generator Loss: 10.303
+D train time:  0.151494671
+G train time:  0.399467261
+Saving..
+Epoch 42 Discriminator Loss: 0.000, Generator Loss: 10.355
+D train time:  0.151398107
+G train time:  0.399202592
+Saving..
+Epoch 43 Discriminator Loss: 0.000, Generator Loss: 10.405
+D train time:  0.151945749
+G train time:  0.399717306
+Saving..
+Epoch 44 Discriminator Loss: 0.000, Generator Loss: 10.457
+D train time:  0.151983739
+G train time:  0.399477828
+Saving..
+Epoch 45 Discriminator Loss: 0.000, Generator Loss: 10.507
+D train time:  0.15174574
+G train time:  0.398898319
+Saving..
+Epoch 46 Discriminator Loss: 0.000, Generator Loss: 10.556
+D train time:  0.152057957
+G train time:  0.399666529
+Saving..
+Epoch 47 Discriminator Loss: 0.000, Generator Loss: 10.597
+D train time:  0.151447916
+G train time:  0.399217128
+Saving..
+Epoch 48 Discriminator Loss: 0.000, Generator Loss: 10.648
+D train time:  0.151869959
+G train time:  0.399048141
+Saving..
+Epoch 49 Discriminator Loss: 0.000, Generator Loss: 10.687
+D train time:  0.15197849
+G train time:  0.400014054
+Saving..
+Epoch 50 Discriminator Loss: 0.000, Generator Loss: 10.729
+D train time:  0.151832014
+G train time:  0.399979705
+Saving..
+Total GAN runtime:  8453.023849403
+Total GAN data loader time:  625.581262155001
+Total Discriminator train time:  1403.524941165003
+Total Generator train time:  3374.784492997992
+Average Discriminator train time per epoch:  0.2864336614622449
+Average Generator train time per epoch:  0.6887315291832653
+tensor([9, 9, 9, 9, 9], device='cuda:0')
+tensor([9, 9, 9, 9, 9], device='cuda:0')
+tensor([9, 9, 9, 9, 9], device='cuda:0')
+tensor([9, 9, 9, 9, 9], device='cuda:0')
+tensor([9, 9, 9, 9, 9], device='cuda:0')
