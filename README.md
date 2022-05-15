@@ -25,15 +25,15 @@ We can see from the following pictures, the traditional GAN architecture can gen
 
 <img width="685" alt="屏幕快照 2022-05-14 下午9 57 13" src="https://user-images.githubusercontent.com/36126865/168453946-9e2f1627-4346-480b-a2d6-00485ebe8bd9.png">
 
-When we only use one GPU, the total train time for the Targeter is 1586.81 sec, and the total train time for the GAN is 8472.17 sec
+When we only use one GPU, the total train time for the Targeter is 1586.81 sec, and the total train time for the GAN is 8472.17 sec  
 
 
 <img width="580" alt="屏幕快照 2022-05-14 下午11 57 15" src="https://user-images.githubusercontent.com/36126865/168456630-c88b563d-c3eb-4753-aaa4-6cc596bdf3a7.png">
 
-Using the optimized version, we find that the total train time for the Targeter is 466.24 sec, and the total train time for the GAN is 4387.42 sec
+Using the optimized version, we find that the total train time for the Targeter is 466.24 sec, and the total train time for the GAN is 4387.42 sec  
 
-<img width="508" alt="屏幕快照 2022-05-15 上午12 06 34" src="https://user-images.githubusercontent.com/36126865/168456767-54e3d9c9-c834-48f7-9dca-8315d4614c20.png">
-
+<img width="508" alt="屏幕快照 2022-05-15 上午12 06 34" src="https://user-images.githubusercontent.com/36126865/168456767-54e3d9c9-c834-48f7-9dca-8315d4614c20.png">  
+  
 
 
 Depending on the procedure, our optimization methodology can lead to a 2-fold or 3-fold speed increase for elements of the TDCGAN architecture
