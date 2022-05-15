@@ -12,7 +12,7 @@ Repository:
 
 All our code files are in the "project files" folder, you can upload the "HPML_project_script.py" to the NYU Greene HPC, then run with sbatch file.
 For example, for 1 gpu running, we can use the command: `sbatch project_sbatch_1_gpu.sbatch`.  
-The models with modular learning rates each have an associated sbatch file that can run the associated script to generate appropriately named outputs.
+The models with modular learning rates each have an associated sbatch file that can run the associated script to generate appropriately named output files.
 
 All our output pictures include the measurement of loss and time are in other folders, you can check those results.
 
