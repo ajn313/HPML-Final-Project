@@ -4,9 +4,9 @@ Here is the final project of HPML course, the team members are Andre Nakkab and 
 
 Project description:
 
-In this project, we hope to optimize a novel method of generative design which the Andre Nakkab developed recently. Here is the past work repo : https://github.com/ajn313/Deep-Learning-Final-Project-Fall2021.
+In this project, we hope to optimize a novel method of generative design which Andre Nakkab developed recently. Here is the past work repo : https://github.com/ajn313/Deep-Learning-Final-Project-Fall2021.
 
-This architecture, which we will refer to as the Targeted Generative Adversarial Network (TGAN) utilizes a fully trained image recognition network as a sort of tertiary element in a generative adversarial network. This new architecture is meant to generate specific, convincing categorical elements based on the image set used for training. 
+This architecture, which we will refer to as the Targeted Generative Adversarial Network (TGAN) utilizes a fully trained image recognition network as a sort of tertiary element in a generative adversarial network. This new architecture is meant to generate specific, convincing categorical elements based on the image set used for training. Specifically, we will be optimizing the Deep Convolutional version of this architecture, the TDCGAN
 
 Repository:
 
@@ -17,19 +17,27 @@ All our output pictures include the measurement of loss and time are in other fo
 
 Code structure:
 
-Basiclly, our code has three parts: Generator, Discriminator, Targeter. Targeter is a ResNet 18 model which is uesd to predict the label of the generated image. Generator and Discriminator are normol CNN models. First, we download the dataset and train the targeter, then we train the Generator and Discriminator. Finally, we get the output picture and the time and loss plot.
+Basiclly, our code has three NN modules: the Generator, the Discriminator, and the Targeter. The Targeter is a ResNet-18 model which is used to predict the label of the generated image. The Discriminator is also a ResNet-18 model, and is used to binarily classify generated images as real or fake. The Generator is a simpler CNN with 5 layers. First, we download the dataset and train the Targeter, then we train the Generator and Discriminator concurrently. 
 
 Results and Observations:
 
-We can see from the following pictures, the traditional GAN architecture can generate a kind of original data but not a specific one. Our model(TDCGAN) generate specific, convincing categorical elements based on the image set used for training. 
+We can see from the following pictures, the traditional GAN architecture can generate images from any category in the dataset, but cannot focus in on a specific category using binary loss. Our model (TDCGAN) generates specific, convincing categorical elements based on the image set used for training. 
 
 <img width="685" alt="屏幕快照 2022-05-14 下午9 57 13" src="https://user-images.githubusercontent.com/36126865/168453946-9e2f1627-4346-480b-a2d6-00485ebe8bd9.png">
 
-When we only use one GPU, the total time is 8453s.
+When we only use one GPU, the total train time for the Targeter is 1586.81 sec, and the total train time for the GAN
+![image](https://user-images.githubusercontent.com/79466926/168479448-a72ebf8e-6ad8-4ee4-9242-1c59c1a9e3e5.png)
+ is 8472.17 sec
+![image](https://user-images.githubusercontent.com/79466926/168479479-8b473530-7022-4e15-ba92-04f8e49117b9.png)
+.
 
 <img width="580" alt="屏幕快照 2022-05-14 下午11 57 15" src="https://user-images.githubusercontent.com/36126865/168456630-c88b563d-c3eb-4753-aaa4-6cc596bdf3a7.png">
 
-After some optimizations, the total time is 4387s.
+Using the optimized version, we find that the total train time for the Targeter is 466.24
+![image](https://user-images.githubusercontent.com/79466926/168479508-95725ef2-d0f8-4a88-adbd-915a23460120.png)
+ sec, and the total train time for the GAN is 4387.42
+![image](https://user-images.githubusercontent.com/79466926/168479516-2723e187-575b-4285-9ccd-42782f7dcd2b.png)
+ sec
 
 <img width="508" alt="屏幕快照 2022-05-15 上午12 06 34" src="https://user-images.githubusercontent.com/36126865/168456767-54e3d9c9-c834-48f7-9dca-8315d4614c20.png">
 
