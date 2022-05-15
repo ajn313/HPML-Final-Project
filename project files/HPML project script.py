@@ -20,6 +20,7 @@ parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
 parser.add_argument('--nworkers',default=2,type=int,help='Number of data loader workers')
 parser.add_argument('--gpus',default=1,type=int,help='Set to zero for single GPU')
 parser.add_argument('--batchsize',default=2048,type=int,help='Set batch size')
+parser.add_argument('--lr',default=0.0001,type=float,help='Set learning rate')
 args = parser.parse_args()
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -31,7 +32,7 @@ torch.cuda.empty_cache()
 img_size = 64
 n_epochs = 50
 batch_size = args.batchsize
-learning_rate = 0.0001*(batch_size/64)
+learning_rate = args.lr*(batch_size/64)
 nworkers = args.nworkers
 
 def format_time(seconds):
@@ -467,7 +468,7 @@ def generate_samples(G,latent_v,epoch):
   samples = samples.cpu()
   images = torchvision.utils.make_grid(samples,normalize=True)
   if args.gpus == 1:
-      name = "epoch " + str(epoch) + ".png"
+      name = "epoch " + str(epoch) + " lr "+ str(learning_rate) + ".png"
   else:
       name = "epoch " + str(epoch) + " 1 gpu.png"
   plt.imsave(name,images.numpy().transpose((1,2,0)))
@@ -582,6 +583,10 @@ print("Total Generator train time: ",Gtraintimesum)
 print("Average Discriminator train time per epoch: ",np.mean(D_train_times))
 print("Average Generator train time per epoch: ",np.mean(G_train_times))
 
+print("D Loss hist:")
+print(D_loss_hist)
+print("\nG loss hist:")
+print(G_loss_hist)
 for i in range(5):
   latent_test = noise(5)
   with torch.no_grad():
@@ -591,6 +596,7 @@ for i in range(5):
   print(torch.argmax(labels,dim=1))
   images = torchvision.utils.make_grid(sample,normalize=True)
   if args.gpus == 1:
-      plt.imsave("output.png",images.numpy().transpose((1,2,0)))
+      name = "output lr " + str(learning_rate) + ".png"
+      plt.imsave(name,images.numpy().transpose((1,2,0)))
   else:
       plt.imsave("output 1 gpu.png",images.numpy().transpose((1,2,0)))
